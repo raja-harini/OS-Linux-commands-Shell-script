@@ -112,8 +112,17 @@ hello world
 
 cat < newfile 
 
-
 ![WhatsApp Image 2024-02-18 at 18 42 26_242b2acc](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/66ad2ec2-b04c-4e45-9c58-4d1e82523460)
+
+
+cat > newfile
+`````
+Hello world
+hello world
+`````
+## OUTPUT
+![1](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/4a429543-e4ef-4ea1-8fd3-683555dfd994)
+
 
  
 grep Hello newfile 
@@ -124,13 +133,14 @@ grep Hello newfile
 
 grep hello newfile 
 ## OUTPUT
+![IMG-20240218-WA0121](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/214fe593-ac17-41d7-a5d2-5b6ad4c25ba6)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![WhatsApp Image 2024-02-18 at 18 42 26_96820266](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/60b989dc-7311-4821-93b8-775bf632862d)
+![IMG-20240218-WA0120](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/9a2efadc-d3e7-4f86-9c9f-d9e62b506f7b)
 
 
 
@@ -138,21 +148,19 @@ cat newfile | grep -i "hello"
 ## OUTPUT
 
 
-
-
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
+![IMG-20240218-WA0122](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/093501f0-d976-4786-a2d9-78ebc534dca7)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![IMG-20240218-WA0119](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/d32bcb4b-3978-435a-9db3-c05315dd04ea)
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![IMG-20240218-WA0118](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/f4a775e5-86c7-4bbc-9af1-f5378339b499)
 
 
 cat < newfile 
