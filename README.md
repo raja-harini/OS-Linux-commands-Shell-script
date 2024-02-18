@@ -165,7 +165,7 @@ grep -w -n world newfile
 ![IMG-20240218-WA0118](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/f4a775e5-86c7-4bbc-9af1-f5378339b499)
 
 
-cat < newfile 
+cat > newfile 
 ```
 Hello world
 hello world
@@ -175,70 +175,76 @@ Linux is best in this World
 ^d
 ```
 
-cat > newfile
-```
-Hello world
-hello world
-Linux is world number 1
-Unix is predecessor
-Linux is best in this World
-^d
- ```
+cat < newfile
+## OUTPUT
+![IMG-20240218-WA0125](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/1ddadb74-5aee-4eee-b384-1f80c15cd5a0)
+
+
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![IMG-20240218-WA0127](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/0e6e7c05-b2bb-4ec1-8040-ec875b340953)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![IMG-20240218-WA0126](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/bce8f51a-d78e-4b3c-99f3-929b03aa674f)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
+![IMG-20240218-WA0130](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/d57df860-eeb0-4191-bf1d-4857904de68c)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![IMG-20240218-WA0128](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/2d53d464-025f-4543-a975-09dbc6a92df1)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![IMG-20240218-WA0129](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/ba112b35-a43d-4596-9ad3-3df84d2c0540)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![WhatsApp Image 2024-02-18 at 20 01 56_bd5b3867](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/e604165a-c3d7-4840-90c4-ab03a508206b)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![IMG-20240218-WA0133](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/59fa4e09-50fe-464f-abc6-f3bf0f201e74)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![IMG-20240218-WA0131](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/e8b2837c-d0da-4044-869b-647b4835c76f)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![IMG-20240218-WA0132](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/3ebe92ff-2df7-453f-98cd-50b47cc7543e)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![IMG-20240218-WA0132](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/759723fe-3670-4320-bce1-c4484d8360ab)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![IMG-20240218-WA0134](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/a95ec630-cfea-41b7-96c8-8f20a0e14bd5)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![IMG-20240218-WA0135](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/fe793ff7-d455-466c-a4bb-f4a8ea17bfd9)
 
 
 cat > file23
