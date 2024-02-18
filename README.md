@@ -108,7 +108,11 @@ Hello world
 hello world
 ^d
 ````
+
+
 cat < newfile 
+
+
 ![WhatsApp Image 2024-02-18 at 18 42 26_242b2acc](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/66ad2ec2-b04c-4e45-9c58-4d1e82523460)
 
  
