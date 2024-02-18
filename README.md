@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![IMG-20240218-WA0108](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/21fe08ee-9b4c-4acd-abe5-99d205bae37a)
 
 
 cat < file2
 ## OUTPUT
+![IMG-20240218-WA0109](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/5f6699c2-429c-46ba-a78b-b05e1b6a3fde)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![IMG-20240218-WA0111](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/84370218-9884-4cf1-b356-e7824b7be560)
+
+
 comm file1 file2
  ## OUTPUT
+![IMG-20240218-WA0110](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/54c88ed0-5144-4a4e-9085-c13eabf2fcc0)
 
- 
+
 diff file1 file2
 ## OUTPUT
+![IMG-20240218-WA0112](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/3112ac4b-d354-4e0d-9f4f-dc03e4847e16)
 
 
 #Filters
@@ -82,12 +87,14 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![IMG-20240218-WA0114](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/9b6bdaa6-7a79-476c-8c9a-017d6be38891)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![IMG-20240218-WA0113](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/70aa634e-bb5a-4894-8068-cc6636013a79)
 
 
 
