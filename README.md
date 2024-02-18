@@ -102,18 +102,19 @@ cut -d "|" -f 2 file22
 ## OUTPUT
 
 
-cat < newfile 
+cat > newfile 
 ```
 Hello world
 hello world
 ^d
 ````
-cat > newfile 
-Hello world
-hello world
+cat < newfile 
+![WhatsApp Image 2024-02-18 at 18 42 26_242b2acc](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/66ad2ec2-b04c-4e45-9c58-4d1e82523460)
+
  
 grep Hello newfile 
 ## OUTPUT
+![WhatsApp Image 2024-02-18 at 18 42 26_e0f9e40a](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/7f85587a-d4cf-4733-a929-fc3dfd942634)
 
 
 
@@ -125,6 +126,7 @@ grep hello newfile
 
 grep -v hello newfile 
 ## OUTPUT
+![WhatsApp Image 2024-02-18 at 18 42 26_96820266](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/60b989dc-7311-4821-93b8-775bf632862d)
 
 
 
