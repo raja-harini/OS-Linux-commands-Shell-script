@@ -42,28 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![IMG-20240218-WA0108](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/21fe08ee-9b4c-4acd-abe5-99d205bae37a)
+![alt text](<cat \< file1.png>)
 
 
 cat < file2
 ## OUTPUT
-![IMG-20240218-WA0109](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/5f6699c2-429c-46ba-a78b-b05e1b6a3fde)
+![alt text](<cat \< file2.png>)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![IMG-20240218-WA0111](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/84370218-9884-4cf1-b356-e7824b7be560)
+ ![alt text](<cmp file1 file2.png>)
 
 
 comm file1 file2
  ## OUTPUT
-![IMG-20240218-WA0110](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/54c88ed0-5144-4a4e-9085-c13eabf2fcc0)
+![alt text](<comm file1 file2.png>)
 
 
 diff file1 file2
 ## OUTPUT
-![IMG-20240218-WA0112](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/3112ac4b-d354-4e0d-9f4f-dc03e4847e16)
+![alt text](<diff file1 file2.png>)
 
 
 #Filters
@@ -87,21 +87,19 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![IMG-20240218-WA0114](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/9b6bdaa6-7a79-476c-8c9a-017d6be38891)
-
+![alt text](<cut -c1-3 file11.png>)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![IMG-20240218-WA0113](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/70aa634e-bb5a-4894-8068-cc6636013a79)
+![alt text](<cut -d "|" -f 1 file22.png>)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![WhatsApp Image 2024-02-18 at 19 23 59_f6570ffe](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/0253e575-3fa9-4ec4-a0ba-b2d6132027c6)
-
+![alt text](<cut -d "|" -f 2 file22.png>)
 
 cat > newfile 
 ```
@@ -111,9 +109,6 @@ hello world
 ````
 
 
-cat < newfile 
-
-![WhatsApp Image 2024-02-18 at 18 42 26_242b2acc](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/66ad2ec2-b04c-4e45-9c58-4d1e82523460)
 
 
 cat > newfile
@@ -121,48 +116,50 @@ cat > newfile
 Hello world
 hello world
 `````
+
+cat < newfile 
+
 ## OUTPUT
-![1](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/4a429543-e4ef-4ea1-8fd3-683555dfd994)
+![alt text](<cat \< newfile .png>)
 
 
  
 grep Hello newfile 
 ## OUTPUT
-![WhatsApp Image 2024-02-18 at 18 42 26_e0f9e40a](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/7f85587a-d4cf-4733-a929-fc3dfd942634)
+![alt text](<grep Hello newfile .png>)
 
 
 
 grep hello newfile 
 ## OUTPUT
-![IMG-20240218-WA0121](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/214fe593-ac17-41d7-a5d2-5b6ad4c25ba6)
+![alt text](<grep hello newfile .png>)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![IMG-20240218-WA0120](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/9a2efadc-d3e7-4f86-9c9f-d9e62b506f7b)
+![alt text](<grep -v hello newfile .png>)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![WhatsApp Image 2024-02-18 at 19 23 59_03b4d6c2](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/09170760-f593-4a39-8138-b92f44f6114c)
+![alt text](<cat newfile | grep -i "hello".png>)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![IMG-20240218-WA0122](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/093501f0-d976-4786-a2d9-78ebc534dca7)
+![alt text](<cat newfile | grep -i -c "hello".png>)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![IMG-20240218-WA0119](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/d32bcb4b-3978-435a-9db3-c05315dd04ea)
-
+![alt text](<grep -R ubuntu etc.png>)
 
 grep -w -n world newfile   
 ## OUTPUT
-![IMG-20240218-WA0118](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/f4a775e5-86c7-4bbc-9af1-f5378339b499)
+![alt text](<grep -w -n world newfile   .png>)
 
 
 cat > newfile 
@@ -177,74 +174,72 @@ Linux is best in this World
 
 cat < newfile
 ## OUTPUT
-![IMG-20240218-WA0125](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/1ddadb74-5aee-4eee-b384-1f80c15cd5a0)
+![alt text](<cat \< newfile.png>)
 
 
 
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![IMG-20240218-WA0127](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/0e6e7c05-b2bb-4ec1-8040-ec875b340953)
+![alt text](<egrep -w 'Hello|hello' newfile .png>)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![IMG-20240218-WA0126](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/bce8f51a-d78e-4b3c-99f3-929b03aa674f)
+![alt text](<egrep -w '(H|h)ello' newfile .png>)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![IMG-20240218-WA0130](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/d57df860-eeb0-4191-bf1d-4857904de68c)
+![alt text](<egrep -w '(H|h)ell[a-z]' newfile .png>)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![IMG-20240218-WA0128](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/2d53d464-025f-4543-a975-09dbc6a92df1)
+![alt text](<egrep '(^hello)' newfile .png>)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![IMG-20240218-WA0129](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/ba112b35-a43d-4596-9ad3-3df84d2c0540)
+![alt text](<egrep '(world$)' newfile .png>)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![WhatsApp Image 2024-02-18 at 20 01 56_bd5b3867](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/e604165a-c3d7-4840-90c4-ab03a508206b)
-
+![alt text](<egrep '(World$)' newfile .png>)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![IMG-20240218-WA0133](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/59fa4e09-50fe-464f-abc6-f3bf0f201e74)
+![alt text](<egrep '((W|w)orld$)' newfile .png>)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![IMG-20240218-WA0131](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/e8b2837c-d0da-4044-869b-647b4835c76f)
-
+![alt text](<egrep '[1-9]' newfile .png>)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-![IMG-20240218-WA0132](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/3ebe92ff-2df7-453f-98cd-50b47cc7543e)
+![alt text](<egrep 'Linux.*world' newfile .png>)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![IMG-20240218-WA0132](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/759723fe-3670-4320-bce1-c4484d8360ab)
+![alt text](<egrep 'Linux.*World' newfile .png>)
 
 
 egrep l{2} newfile
 ## OUTPUT
-![IMG-20240218-WA0134](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/a95ec630-cfea-41b7-96c8-8f20a0e14bd5)
+![alt text](<egrep l{2} newfile.png>)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![IMG-20240218-WA0135](https://github.com/raja-harini/OS-Linux-commands-Shell-script/assets/149037372/fe793ff7-d455-466c-a4bb-f4a8ea17bfd9)
+![alt text](<egrep 's{1,2}' newfile.png>)
 
 
 cat > file23
@@ -263,80 +258,82 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![alt text](<sed -n -e '3p' file23.png>)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![alt text](<sed -n -e '$p' file23.png>)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![alt text](<sed  -e 'sRamSita' file23.png>)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![alt text](<sed  -e '2sRamSita' file23.png>)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![alt text](<sed  'toms50006000' file23.png>)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![alt text](<sed -n -e '1,5p' file23.png>)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![alt text](<sed -n -e '2,Joep' file23.png>)
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![alt text](<sed -n -e 'tom,Joep' file23.png>)
 
 
 seq 10 
 ## OUTPUT
-
+![alt text](<seq 10 .png>)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![alt text](<seq 10 | sed -n '4,6p'.png>)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![alt text](<seq 10 | sed -n '2,~4p'.png>)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![alt text](<seq 3 | sed '2a hello'.png>)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![alt text](<seq 2 | sed '2i hello'.png>)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![alt text](<seq 10 | sed '2,9c hello'.png>)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![alt text](<sed -n '2,4{s^$;p}' file23.png>)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+## OUTPUT
+![alt text](<sed -n '2,4{s$*;p}' file23.png>)
 
 #Sorting File content
 cat > file21
@@ -349,7 +346,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![alt text](<sort file21.png>)
 
 cat > file22
 ```
@@ -362,41 +359,40 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![alt text](<uniq file22.png>)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![alt text](<cat file23 | tr [:lower:] [:upper:].png>)
 
-cat < urllist.txt
+cat > urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
 ^d
  ```
-cat > urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
- ```
+cat < urllist.txt
+## OUTPUT
+![alt text](<cat \< urllist.txt.png>)
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![alt text](<cat urllist.txt | tr -d ' '.png>)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![alt text](<cat urllist.txt | tr -d ' ' | tr -s '.'.png>)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![alt text](<tar -cvf backup.tar *.png>)
 
 mkdir backupdir
  
@@ -438,9 +434,9 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![alt text](<cat herecheck.txt.png>)
 
-
-cat < scriptest.sh 
+cat > scriptest.sh 
 ```bash
 \#!/bin/sh
 echo “File name is $0 ”
@@ -476,29 +472,30 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![alt text](<scriptest.sh 1 2 3.png>)
  
 ls file1
 ## OUTPUT
-
+![alt text](<ls file1.png>)
 echo $?
 ## OUTPUT 
+![alt text](<echo $?.png>)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![alt text](<echo $?1.png>)
 abcd
  
 echo $?
  ## OUTPUT
-
+![alt text](<echo $?1.png>)
 
  
 # mis-using string comparisons
 
-cat < strcomp.sh 
+cat > strcomp.sh 
 ```bash
 \#!/bin/bash
 val1=baseball
@@ -512,30 +509,18 @@ fi
 ^d
 ```
 
-cat strcomp.sh 
-```bash
-\#!/bin/bash
-val1=baseball
-val2=hockey
-if [ $val1 \> $val2 ]
-then
-echo "$val1 is greater than $val2"
-else
-echo "$val1 is less than $val2"
-fi
-```
+cat < strcomp.sh 
 ##OUTPUT
-
+![alt text](<cat \< strcomp.sh .png>)
 
 
 chmod 755 strcomp.sh
- 
-./strcomp.sh 
+ ./strcomp.sh 
 ## OUTPUT
-
+![alt text](<chmod 755 strcomp.sh.png>)
 
 # check file ownership
-cat < psswdperm.sh 
+cat > psswdperm.sh 
 ```bash
 \#!/bin/bash
 if [ -O /etc/passwd ]
@@ -559,6 +544,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![alt text](psswdperm.sh.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -605,7 +591,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![alt text](<ifnested.sh .png>)
 
 
 # using numeric test comparisons
@@ -649,7 +635,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![alt text](<iftest.sh .png>)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -698,9 +684,9 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![alt text](ifnested.sh1.png)
 # looking for a possible value using elif
-cat elifcheck.sh 
+cat > elifcheck.sh 
 ```bash
 \#!/bin/bash
 if [ $USER = Ram ]
@@ -726,7 +712,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![alt text](<elifcheck.sh .png>)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -742,7 +728,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![alt text](ifcompound.sh.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -761,8 +747,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
-cat > whiletest
+## OUTPUT
+ ![alt text](<casecheck.sh .png>)
+cat > whiletest.sh
 ```bash
 #!/bin/bash
 #while command test
@@ -776,9 +763,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
+![alt text](whiletest.sh.png)
  
- 
-cat untiltest.sh 
+cat > untiltest.sh 
 ```bash
 \#using the until command
 var1=100
@@ -789,10 +777,12 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+ $ ./untiltest.sh
+ ## OUTPUT
+![alt text](untiltest.sh.png)
  
  
- 
-cat forin1.sh 
+cat > forin1.sh 
 ```bash
 \#!/bin/bash
 \#basic for command
@@ -803,9 +793,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
+$./forin1.sh
+## OUTPUT
+![alt text](forin1.sh.png)
  
- 
-cat forin2.sh 
+cat > forin2.sh 
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -814,9 +806,7 @@ do
 echo “word:$test”
 done
  ```
- 
-$ chmod 755 forin2.sh
- 
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -829,8 +819,10 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
-cat forin3.sh 
+## OUTPUT
+ ![alt text](forin2.sh.png)
+
+cat > forin3.sh 
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -838,22 +830,12 @@ for test in I don\'t know if "this'll" work
 do
 echo "word:$test"
 done
-```
+````
 $ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
+ ## OUTPUT
+![alt text](forin3.sh.png)
 
-## OUTPUT
-cat forinfile.sh 
+cat > forinfile.sh 
 ```bash
 #!/bin/bash
 # reading values from a file
@@ -864,7 +846,7 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
-$ cat cities
+$ cat  cities
 Hyderabad
 Alampur
 Basara
@@ -876,7 +858,7 @@ Khammam
 ## OUTPUT
 
 
-cat forctype.sh 
+cat > forctype.sh 
 ```bash
 #!/bin/bash
 # testing the C-style for loop
@@ -888,8 +870,10 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![alt text](forctype.sh.png)
 
-cat forctype1.sh 
+
+$ cat > forctype1.sh 
 ```bash
 #!/bin/bash
 # multiple variables
@@ -898,11 +882,11 @@ do
 echo "$a - $b"
 done
 ```
-$ chmod 755 forctype.sh
+$ chmod 755 forctype1.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
-cat fornested1.sh 
+![alt text](forctype1.sh.png)
+cat > fornested1.sh 
 ```bash
 #!/bin/bash
 # nesting for loops
@@ -919,9 +903,9 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](fornested1.sh.png)
  
-cat forbreak.sh 
+cat > forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -935,11 +919,11 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+## OUTPUT
+![alt text](<forbreak.sh .png>)
  
 cat forbreak.sh 
 ```bash
@@ -955,14 +939,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
  
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
  
-cat exread.sh 
+cat > exread.sh 
 ```bash
 #!/bin/bash
 # testing the read command
@@ -975,9 +958,9 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![alt text](<exread.sh .png>)
 
-
- cat exread1.sh
+ cat > exread1.sh
 ```bash
 #!/bin/bash
 # testing the read command
@@ -986,13 +969,12 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
-
 $ ./exread1.sh 
  
-cat funcex.sh
+ ## OUTPUT
+![alt text](exread1.sh.png)
+
+cat > funcex.sh
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -1007,14 +989,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
-
- 
  ./funcex.sh 1 2
+## OUTPUT
+ ![alt text](<funcex.sh .png>)
 
- 
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1024,10 +1005,11 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![alt text](argshift.sh.png)
  
- cat argshift1.sh
+ cat > argshift1.sh
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -1040,11 +1022,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
+$ chmod 777 argshift1.sh
+
+$ ./argshift1.sh 1 2 3
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
-cat argshift.sh
+![alt text](argshift1.sh.png)
+
+cat > argshift.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1054,9 +1038,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
  ./argshift.sh 1 2 3
- 
+## OUTPUT
+ ![alt text](<argshift.sh set.png>)
  
 cat > nc.awk
 ```bash
@@ -1087,7 +1072,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+![alt text](<awk -f nc.awk data.dat.png>)
+
 cat > palindrome.sh
 ```bash
 #num=545
