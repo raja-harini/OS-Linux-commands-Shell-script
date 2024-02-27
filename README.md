@@ -510,6 +510,8 @@ fi
 ```
 
 cat < strcomp.sh 
+
+
 ##OUTPUT
 ![alt text](<cat \< strcomp.sh .png>)
 
