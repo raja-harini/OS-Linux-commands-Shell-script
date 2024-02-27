@@ -513,12 +513,16 @@ cat < strcomp.sh
 
 
 ##OUTPUT
+
+
 ![alt text](<cat \< strcomp.sh .png>)
 
 
 chmod 755 strcomp.sh
  ./strcomp.sh 
 ## OUTPUT
+
+
 ![alt text](<chmod 755 strcomp.sh.png>)
 
 # check file ownership
@@ -592,7 +596,11 @@ fi
 ```
 
 ./ifnested.sh 
+
+
 ## OUTPUT
+
+
 ![alt text](<ifnested.sh .png>)
 
 
@@ -636,7 +644,11 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
+
 ##OUTPUT
+
+
 ![alt text](<iftest.sh .png>)
 # check if a file
 cat > ifnested.sh 
@@ -684,8 +696,12 @@ fi
 
 $ chmod 755 ifnested.sh
  
-$ ./ifnested.sh 
+$ ./ifnested.sh
+
+
 ##OUTPUT
+
+
 ![alt text](ifnested.sh1.png)
 # looking for a possible value using elif
 cat > elifcheck.sh 
@@ -713,7 +729,11 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
+
 ## OUTPUT
+
+
 ![alt text](<elifcheck.sh .png>)
 
 # testing compound comparisons
@@ -728,8 +748,12 @@ echo "I cannot write to the file"
 fi
 ```
 $ chmod 755 ifcompound.sh
-$ ./ifcompound.sh 
+$ ./ifcompound.sh
+
+
 ## OUTPUT
+
+
 ![alt text](ifcompound.sh.png)
 # using the case command
 cat >casecheck.sh 
@@ -749,7 +773,11 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+
 ## OUTPUT
+
+
  ![alt text](<casecheck.sh .png>)
 cat > whiletest.sh
 ```bash
@@ -765,7 +793,11 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+
 ## OUTPUT
+
+
 ![alt text](whiletest.sh.png)
  
 cat > untiltest.sh 
@@ -780,7 +812,11 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  $ ./untiltest.sh
+
+ 
  ## OUTPUT
+
+ 
 ![alt text](untiltest.sh.png)
  
  
@@ -796,7 +832,11 @@ done
  
 $ chmod 755 forin1.sh
 $./forin1.sh
+
+
 ## OUTPUT
+
+
 ![alt text](forin1.sh.png)
  
 cat > forin2.sh 
@@ -821,7 +861,11 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+
 ## OUTPUT
+
+
  ![alt text](forin2.sh.png)
 
 cat > forin3.sh 
@@ -834,7 +878,11 @@ echo "word:$test"
 done
 ````
 $ ./forin3.sh 
+
+
  ## OUTPUT
+
+ 
 ![alt text](forin3.sh.png)
 
 cat > forinfile.sh 
@@ -857,6 +905,7 @@ Adilabad
 Bhadrachalam
 Khammam
 
+
 ## OUTPUT
 
 
@@ -870,8 +919,12 @@ echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
-$ ./forctype.sh 
+$ ./forctype.sh
+
+
 ## OUTPUT
+
+
 ![alt text](forctype.sh.png)
 
 
@@ -886,7 +939,11 @@ done
 ```
 $ chmod 755 forctype1.sh
 $ ./forctype1.sh 
+
+
 ## OUTPUT
+
+
 ![alt text](forctype1.sh.png)
 cat > fornested1.sh 
 ```bash
@@ -904,7 +961,11 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
+
  ## OUTPUT
+
+ 
 ![alt text](fornested1.sh.png)
  
 cat > forbreak.sh 
@@ -924,7 +985,11 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+
 ## OUTPUT
+
+
 ![alt text](<forbreak.sh .png>)
  
 cat forbreak.sh 
@@ -945,7 +1010,10 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
+
 ## OUTPUT
+
  
 cat > exread.sh 
 ```bash
@@ -994,7 +1062,11 @@ fi
 
  ./funcex.sh 
  ./funcex.sh 1 2
+
+ 
 ## OUTPUT
+
+
  ![alt text](<funcex.sh .png>)
 
 cat > argshift.sh
@@ -1008,7 +1080,11 @@ done
 $ chmod 777 argshift.sh
 
 $ ./argshift.sh 1 2 3
+
+
 ## OUTPUT
+
+
 ![alt text](argshift.sh.png)
  
  cat > argshift1.sh
@@ -1027,7 +1103,11 @@ done
 $ chmod 777 argshift1.sh
 
 $ ./argshift1.sh 1 2 3
+
+
 ## OUTPUT
+
+
 ![alt text](argshift1.sh.png)
 
 cat > argshift.sh
@@ -1042,7 +1122,11 @@ set +x
 ```
 
  ./argshift.sh 1 2 3
+
+ 
 ## OUTPUT
+
+
  ![alt text](<argshift.sh set.png>)
  
 cat > nc.awk
@@ -1073,7 +1157,11 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
+
 ## OUTPUT 
+
+
 ![alt text](<awk -f nc.awk data.dat.png>)
 
 cat > palindrome.sh
@@ -1101,6 +1189,8 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+
+
 ## OUTPUT 
 
 
